@@ -49,7 +49,7 @@ function Aboutmain() {
                    
                 </div>
                 <div className='max-w-[800px]'>
-                        <h2 className='font-bold mt-16 mb-6'> I'am Azka Rehman!</h2>
+                        <h2 className='font-bold mt-16 mb-6'> I am Azka Rehman!</h2>
                         <p className='text-grey-600'>
                         I am a skilled and passionate developer who is always exploring 
                         new technologies and pushing boundaries. I approach every project 
