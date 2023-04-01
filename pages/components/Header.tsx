@@ -1,3 +1,4 @@
+'use client'
 import Image from 'next/image'
 import Link from 'next/link'
 import React,{useState} from 'react'
@@ -14,9 +15,9 @@ function header() {
         </div>
         <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
         <div className="text-md lg:flex-grow flex justify-end">
-          <a href="/components/Aboutmain" className="block mt-4 lg:inline-block lg:mt-0 text-gray-200 hover:text-white mr-4">
+          <Link href="/components/Aboutmain" className="block mt-4 lg:inline-block lg:mt-0 text-gray-200 hover:text-white mr-4">
             About me
-          </a>
+          </Link>
           <Link href="/components/WhatIDo"  className="block mt-4 lg:inline-block lg:mt-0 text-gray-200 hover:text-white mr-4">
            What I Do
           </Link>
@@ -41,9 +42,9 @@ function header() {
           <button onClick={()=>setnavbar(!navbar)}><GiHamburgerMenu/></button>
       </div>
       {navbar && (<div className='md:hidden flex flex-col text-white w-full bg-red-500 h-30 text-center'>
-        <a href="/components/Aboutmain" className="block mt-4 lg:inline-block lg:mt-0 text-gray-200 hover:text-white mr-4">
+        <Link href="/components/Aboutmain" className="block mt-4 lg:inline-block lg:mt-0 text-gray-200 hover:text-white mr-4">
             About me
-          </a>
+          </Link>
           <Link href="/components/WhatIDo"  className="block mt-4 lg:inline-block lg:mt-0 text-gray-200 hover:text-white mr-4">
            What I Do
           </Link>
