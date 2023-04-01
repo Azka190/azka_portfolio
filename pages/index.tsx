@@ -9,6 +9,7 @@ import Contactme from './components/Contactme'
 import Footer from './components/Footer'
 import Header from './components/Header'
 
+
 function Aboutme() {
   return (
     <div>
@@ -20,7 +21,7 @@ function Aboutme() {
             <div>
               <h1 className='text-5xl'>I am Azka Rehman</h1>
               <h4 className='text-2xl mt-3'>
-                <TypeWriter
+                {/* <TypeWriter
                 options={{
                   strings:[
                   "Frontend Developer",
@@ -30,7 +31,8 @@ function Aboutme() {
                   changeDeleteSpeed :2,
                   autoStart: true,
                   loop: true
-                }} />
+                  
+                }} /> */}
               </h4>
               <div className='bg-[#ff4d41] h-[2px] w-[49px] mt-3'></div>
               <div>
