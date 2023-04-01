@@ -14,7 +14,7 @@ function Contactme() {
             </div>
 
             <input type='text' placeholder='Subject' className='inputstyle' required></input>
-            <textarea type='text'  placeholder='Message' rows={6} className='inputstyle' required></textarea>
+            <textarea placeholder='Message' rows={6} className='inputstyle' required></textarea>
             <div>
                 <button className='border border-[#ff4d41] px-1 py-2 mb-4 text-[#ff4d41] rounded-[4px] items-center
                 hover:bg-[#ff4d41] hover:text-white transition duration-200 ' type='submit'> SEND MESSAGE</button>
