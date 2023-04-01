@@ -4,7 +4,7 @@ import Link from 'next/link'
 import React,{useState} from 'react'
 import {GiHamburgerMenu} from 'react-icons/gi'
 
-function header() {
+function Header() {
   const [navbar,setnavbar] = useState(false)
   return (
     <div>
@@ -59,4 +59,4 @@ function header() {
   )
 }
 
-export default header
+export default Header
