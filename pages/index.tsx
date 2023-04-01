@@ -18,7 +18,7 @@ function Aboutme() {
         <div className='container mx-auto px-4'>
           <div className='max-w-[450px] text-white flex flex-col flex-center gap-40px'>
             <div>
-              <h1 className='text-5xl'>I'm Azka Rehman</h1>
+              <h1 className='text-5xl'>I am Azka Rehman</h1>
               <h4 className='text-2xl mt-3'>
                 <TypeWriter
                 options={{
